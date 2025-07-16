@@ -97,6 +97,10 @@ a {
     background-repeat: no-repeat;
 }
 
+.banner-mobile-view {
+    display: none;
+}
+
 .banner-container {
     width: 1200px;
     margin: 0 auto;
@@ -237,21 +241,35 @@ label {
         display: inline-block;
         width: 20%;
         text-align: right;
+        
     }
 
     .hamburger img {
         height: 50px;
+        padding: 10px;
     }
 
     .logo {
         position: relative;
         display: inline-block;
         width: 75%;
-        padding-left: 10px;
+        padding: 10px;
     }
 
     .banner-desktop-view {
         display: none;
+    }
+
+    .banner-mobile-view {
+        display: block;
+        width: 575px;
+    }
+    
+    .banner img{
+        width: 575px;
+        height: 600px;
+        object-fit: cover;
+        object-position: 5% 30%;
     }
 
 }
