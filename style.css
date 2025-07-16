@@ -136,11 +136,18 @@ a {
 
 .company-logo {
     width: 300px;
+    padding:0 15px ;
 }
 
 .company-logo img{
     height: 48px;
     float: left;
+    padding-right: 15px;
+}
+
+.company-logo p {
+    padding-top: 15px;
+    font-size: 24px;
     
 }
 
@@ -156,13 +163,13 @@ a {
     }
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 576px) {
     body {
-        width: 430px;
+        width: 575px;
     }
 
     body div {
-        width: 430px;
+        width: 575px;
     }
 
     .telno-and-navbar {
