@@ -37,9 +37,9 @@ a {
 }
 
 .header {
-    background-image: linear-gradient(#bbed18, #54ed18);
-    border-bottom: 4px solid white;
-    outline: 2px solid green;
+    background-image: url(./images/header_bg.png);
+    background-size: 100% 100%;
+
 }
 
 .header-container {
@@ -49,17 +49,8 @@ a {
 }
 
 .logo {
-    position: relative;
-    display: inline-block;
-    width: 54%;
-}
-
-.brand-name {
-    position: absolute;
-    left: 65px;
-    top: 15px;
-    margin-top: 0;
-    font-size: 24px;
+    float: left;
+    width: 500px;
 }
 
 .brand-image {
@@ -67,17 +58,19 @@ a {
 }
 
 .telno-and-navbar {
-    display: inline-block;
-    width: 45%;
-    text-align: right;
+    float:right;
+    vertical-align: top;
+    width: 500px;
 }
 
 .telno {
+    float: right;
     font-size: 24px;
     padding: 0 10px;
 }
 
 .navbar {
+    float: right;
     list-style: none;
     margin: 0;
     padding: 10px 0px;
@@ -93,42 +86,86 @@ a {
     color: white;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
-    body div {
-        width: 1200px;
+.banner-desktop-view {
+    background-image: url(./images/body_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    width: 70%;
+    float: left;
+}
+
+.registration-form-container {
+    float: right;
+    width: 30%;
+}
+
+.registration-form-container img{
+    float: right;
+    height: 600px;
+}
+
+
+@media screen and (max-width: 1250px) {
+
+    body{
+        width: 1250px;
+    }
+
+    body div{
+        width: 1250px;
     }
 }
 
 @media screen and (max-width: 431px) {
+    body {
+        width: 430px;
+    }
+
     body div {
         width: 430px;
     }
+
     .telno-and-navbar {
         display: none;
     }
+
     .header-container {
         width: 100%;
         padding-top: 10px;
         padding-bottom: 5px;
     }
-    .hamburger{
+
+    .hamburger {
         display: inline-block;
         width: 20%;
         text-align: right;
     }
-    .hamburger img{
+
+    .hamburger img {
         height: 50px;
     }
+
     .logo {
         position: relative;
         display: inline-block;
         width: 75%;
         padding-left: 10px;
     }
-    
+
+    .banner-desktop-view {
+        display: none;
+    }
 
 }
