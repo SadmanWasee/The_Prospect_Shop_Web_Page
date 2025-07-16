@@ -117,6 +117,7 @@ a {
 }
 
 .registration-form-container {
+    position: relative;
     float: right;
     width: 30%;
 }
@@ -124,6 +125,23 @@ a {
 .registration-form-container img {
     float: right;
     height: 600px;
+}
+
+.registration-form {
+    position: absolute;
+    margin: 0 auto;
+    width: 300px;
+    left: 52px;
+}
+
+.company-logo {
+    width: 300px;
+}
+
+.company-logo img{
+    height: 48px;
+    float: left;
+    
 }
 
 
