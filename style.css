@@ -20,19 +20,19 @@ a {
     display: table;
 }
 
-.fw-bold {
+.fw-700 {
     font-weight: 700;
 }
 
-.fw-thin {
+.fw-100 {
     font-weight: 100;
 }
 
-.cl-white {
+.color-white {
     color: white;
 }
 
-.cl-black {
+.color-black {
     color: black;
 }
 
@@ -61,6 +61,7 @@ a {
     float: right;
     vertical-align: top;
     width: 500px;
+    padding-bottom: 10px;
 }
 
 .telno {
@@ -109,29 +110,29 @@ a {
 .banner-text h1 {
     width: 50%;
     padding-top: 100px;
-    padding-bottom: 335px;
+    padding-bottom: 380px;
 }
 
 .banner-text span {
     font-size: 14px;
 }
 
-.registration-form-container {
+.download-form-container {
     position: relative;
     float: right;
     width: 30%;
 }
 
-.registration-form-container img {
+.download-form-container img {
     float: right;
-    height: 600px;
+    height: 650px;
 }
 
-.registration-form {
+.download-form {
     position: absolute;
     margin: 0 auto;
     width: 300px;
-    left: 52px;
+    left: 40px;
 }
 
 .company-logo {
@@ -151,6 +152,50 @@ a {
     
 }
 
+.branding-statement {
+    text-align: center;
+    width: 300px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.download-guide-container {
+    margin-top: 15px;
+    width: 300px;
+}
+
+.download-guide {
+    
+    width: 225px;
+    margin: 0 auto;
+    background-color: #151617;
+    height: 40px;
+    padding: 20px;
+}
+
+.download-guide-tex{
+    width: 100px;
+    float: left;
+}
+
+.download-guide img {
+    height: 42px;
+    float: right;
+}
+
+.download-form form {
+    padding: 0 15px;
+    padding-bottom: 10px;
+}
+
+.download-form form input , label {
+    display: block;
+}
+
+.download-form form input {
+    font-size: 16px;
+    width: 260px;
+}
 
 @media screen and (max-width: 1250px) {
 
