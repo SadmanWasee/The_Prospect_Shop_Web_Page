@@ -58,7 +58,7 @@ a {
 }
 
 .telno-and-navbar {
-    float:right;
+    float: right;
     vertical-align: top;
     width: 500px;
 }
@@ -106,12 +106,22 @@ a {
     float: left;
 }
 
+.banner-text h1 {
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 335px;
+}
+
+.banner-text span {
+    font-size: 14px;
+}
+
 .registration-form-container {
     float: right;
     width: 30%;
 }
 
-.registration-form-container img{
+.registration-form-container img {
     float: right;
     height: 600px;
 }
@@ -119,11 +129,11 @@ a {
 
 @media screen and (max-width: 1250px) {
 
-    body{
+    body {
         width: 1250px;
     }
 
-    body div{
+    body div {
         width: 1250px;
     }
 }
