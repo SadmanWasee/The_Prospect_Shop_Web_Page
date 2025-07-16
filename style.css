@@ -110,7 +110,7 @@ a {
 .banner-text h1 {
     width: 50%;
     padding-top: 100px;
-    padding-bottom: 380px;
+    padding-bottom: 410px;
 }
 
 .banner-text span {
@@ -125,22 +125,22 @@ a {
 
 .download-form-container img {
     float: right;
-    height: 650px;
+    height: 680px;
 }
 
 .download-form {
     position: absolute;
     margin: 0 auto;
     width: 300px;
-    left: 40px;
+    left: 35px;
 }
 
 .company-logo {
     width: 300px;
-    padding:0 15px ;
+    padding: 0 15px;
 }
 
-.company-logo img{
+.company-logo img {
     height: 48px;
     float: left;
     padding-right: 15px;
@@ -149,7 +149,7 @@ a {
 .company-logo p {
     padding-top: 15px;
     font-size: 24px;
-    
+
 }
 
 .branding-statement {
@@ -165,7 +165,6 @@ a {
 }
 
 .download-guide {
-    
     width: 225px;
     margin: 0 auto;
     background-color: #151617;
@@ -173,7 +172,7 @@ a {
     padding: 20px;
 }
 
-.download-guide-tex{
+.download-guide-tex {
     width: 100px;
     float: left;
 }
@@ -188,7 +187,8 @@ a {
     padding-bottom: 10px;
 }
 
-.download-form form input , label {
+.download-form form input,
+label {
     display: block;
 }
 
@@ -197,6 +197,12 @@ a {
     width: 260px;
 }
 
+.privacy-matters-statement{
+    width: 260px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 15px;
+}
 @media screen and (max-width: 1250px) {
 
     body {
