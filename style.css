@@ -265,11 +265,23 @@ label {
         width: 575px;
     }
     
-    .banner img{
+    .banner-mobile img {
         width: 575px;
         height: 600px;
         object-fit: cover;
-        object-position: 5% 30%;
+        object-position: 9% 10%;
+    }
+
+    .banner-text-mobile {
+        position: absolute;
+        text-align: center;
+    }
+
+    .banner-text-mobile h1 {
+        width: 450px;
+        margin: 0 auto;
+        padding-top: 120px;
+        padding-bottom: 355px;
     }
 
 }
