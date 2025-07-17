@@ -6,7 +6,6 @@ body {
 }
 
 body div {
-    width: 100vw;
     background-size: cover;
 }
 
@@ -201,6 +200,10 @@ label {
     width: 260px;
 }
 
+.download-form-mobile {
+    display: none;
+}
+
 .privacy-matters-statement{
     width: 260px;
     font-size: 14px;
@@ -282,6 +285,48 @@ label {
         margin: 0 auto;
         padding-top: 120px;
         padding-bottom: 355px;
+    }
+
+    .download-form-mobile {
+        display: block;
+
+    }
+
+    .download-form-mobile {
+        background-image: url(./images/container_bg_2.png);
+        background-size: 100% 100%;
+        height: 1000px;
+    }
+
+    .download-form-container-mobile {
+        width: 450px;
+        margin: 0 auto;
+        padding-top: 20px;
+        
+    }
+
+    .logo-and-brand-statement-mobile {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .company-logo-mobile {
+        width: 360px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        padding-top: 20px;
+    }
+
+    .company-logo-mobile img {
+        float: left;
+        height: 52px;
+    }
+    
+    .company-logo-mobile h1 {
+        float: right;
+        margin: 0;
+        padding-top: 8px;
     }
 
 }
