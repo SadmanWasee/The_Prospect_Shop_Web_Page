@@ -5,9 +5,6 @@ body {
     ;
 }
 
-body div {
-    background-size: cover;
-}
 
 a {
     text-decoration: none;
@@ -19,11 +16,11 @@ a {
     display: table;
 }
 
-.fw-700 {
+.font-weight-700 {
     font-weight: 700;
 }
 
-.fw-100 {
+.font-weight-100 {
     font-weight: 100;
 }
 
@@ -58,7 +55,6 @@ a {
 
 .telno-and-navbar {
     float: right;
-    vertical-align: top;
     width: 500px;
     padding-bottom: 10px;
 }
@@ -71,7 +67,6 @@ a {
 
 .navbar {
     float: right;
-    list-style: none;
     margin: 0;
     padding: 10px 0px;
 }
@@ -112,34 +107,37 @@ a {
 
 .banner-text h1 {
     width: 50%;
-    padding-top: 100px;
-    padding-bottom: 410px;
+    padding-top: 150px;
+    padding-bottom: 360px;
 }
 
 .banner-text span {
     font-size: 14px;
 }
 
-.download-form-container {
+.download-form-segment {
     position: relative;
     float: right;
     width: 30%;
 }
 
-.download-form-container img {
+.download-form-segment img {
     float: right;
     height: 680px;
 }
 
 .download-form {
     position: absolute;
+    width: 100%;
+}
+
+.download-form-container {
+    width: 80%;
     margin: 0 auto;
-    width: 300px;
-    left: 35px;
 }
 
 .company-logo {
-    width: 300px;
+    width: 100%;
     padding: 0 15px;
 }
 
@@ -171,13 +169,13 @@ a {
     width: 225px;
     margin: 0 auto;
     background-color: #151617;
-    height: 40px;
     padding: 20px;
 }
 
 .download-guide-tex {
     width: 100px;
     float: left;
+    font-size: 21px;
 }
 
 .download-guide img {
@@ -185,7 +183,7 @@ a {
     float: right;
 }
 
-.download-form form {
+.download-form-container form {
     padding: 0 15px;
     padding-bottom: 10px;
 }
@@ -204,20 +202,72 @@ label {
     display: none;
 }
 
-.privacy-matters-statement{
+.privacy-matters-statement {
     width: 260px;
     font-size: 14px;
     text-align: center;
     padding-left: 15px;
 }
-@media screen and (max-width: 1250px) {
+
+.about-section-desktop {
+    background-color: #5fa32e;
+}
+
+.about-section-container-desktop {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title-and-company-logo {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.section-title {
+    float: left;
+    width: 40%;
+}
+
+.section-title-and-company-logo .company-logo {
+    float: right;
+    width: 50%;
+
+}
+
+.section-title-and-company-logo .company-logo img {
+    padding-top: 15px;
+    padding-left: 245px;
+}
+
+
+.about-section-column-container-desktop div{
+    float: left;
+    width: 29%;
+    padding-top: 10px;
+    padding-right: 52px;
+}
+
+.about-section-column-container-desktop img {
+    height: 48px;
+    padding-bottom: 10px;
+}
+
+.about-section-column-container-desktop .image-container {
+    padding-left: 115px;
+}
+
+.about-section-column-1 div, .about-section-column-2 div, .about-section-column-3 div {
+    width: 100%;
+} 
+
+@media screen and (max-width: 1450px) {
 
     body {
-        width: 1250px;
+        width: 1450px;
     }
 
     body div {
-        width: 1250px;
+        width: 1450px;
     }
 }
 
@@ -244,7 +294,7 @@ label {
         display: inline-block;
         width: 20%;
         text-align: right;
-        
+
     }
 
     .hamburger img {
@@ -267,7 +317,7 @@ label {
         display: block;
         width: 575px;
     }
-    
+
     .banner-mobile img {
         width: 575px;
         height: 600px;
@@ -302,7 +352,7 @@ label {
         width: 450px;
         margin: 0 auto;
         padding-top: 20px;
-        
+
     }
 
     .logo-and-brand-statement-mobile {
@@ -322,7 +372,7 @@ label {
         float: left;
         height: 52px;
     }
-    
+
     .company-logo-mobile h1 {
         float: right;
         margin: 0;
@@ -335,12 +385,15 @@ label {
         text-align: center;
         padding-top: 20px;
     }
+
     .download-guide-form-mobile {
         width: 365px;
         margin: 0 auto;
         padding-top: 20px;
     }
-    .download-guide-form-mobile label, input{
+
+    .download-guide-form-mobile label,
+    input {
         width: 100%;
         padding-top: 15px;
 
@@ -365,7 +418,7 @@ label {
         font-size: 28px;
     }
 
-    .download-guide-button-container-mobile img{
+    .download-guide-button-container-mobile img {
         float: right;
     }
 
@@ -374,7 +427,11 @@ label {
         width: 365px;
         margin: 0 auto;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 30px;
+    }
+
+    .about-section-desktop {
+        display: none
     }
 
 }
