@@ -212,10 +212,15 @@ label {
   margin: 0 auto;
 }
 
+.section-heading-and-logo {
+  padding-bottom: 20px;
+}
+
 .section-heading-and-logo .heading {
   font-size: 32px;
   float: left;
   width: 45%;
+  padding-top: 10px;
 }
 
 .section-heading-and-logo .company-logo {
@@ -227,12 +232,39 @@ label {
 
 .section-heading-and-logo .company-logo span {
   position: relative;
-  top: 10px;
+  top: 8px;
 }
 
 .section-heading-and-logo .company-logo img {
   height: 48px;
 }
+
+.about-section-top, .about-section-bottom {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+.about-section-bottom {
+  vertical-align: bottom;
+}
+
+.about-section-top div, .about-section-bottom div {
+  width: 30%;
+  height: auto;
+  padding: 0 20px 0px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.importance img {
+  height: 42px;
+}
+
+.about-section-top img , .about-section-bottom img {
+  padding-left: 140px;
+}
+
+
 
 @media screen and (max-width: 1456px) {
 
@@ -406,9 +438,14 @@ label {
   }
 
   .section-heading-and-logo .company-logo span {
-    display: none
+    display: none;
   }
 
-  ;
+  .about-section-top div, .about-section-bottom div{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+  }
 
 }
