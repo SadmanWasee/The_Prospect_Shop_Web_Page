@@ -202,57 +202,36 @@ label {
   text-align: center;
 }
 
-.about-section-desktop {
+.about-section {
   background-color: #5fa32e;
+  padding-top: 30px;
 }
 
-.about-section-container-desktop {
+.about-section-container {
   width: 1200px;
   margin: 0 auto;
 }
 
-.section-title-and-company-logo {
-  width: 100%;
-  padding-top: 30px;
-}
-
-.section-title {
+.section-heading-and-logo .heading {
+  font-size: 32px;
   float: left;
-  width: 40%;
+  width: 45%;
 }
 
-.section-title-and-company-logo .company-logo {
+.section-heading-and-logo .company-logo {
   float: right;
-  width: 50%;
-
+  width: 35%;
+  padding-left: 230px;
+  font-size: 30px;
 }
 
-.section-title-and-company-logo .company-logo img {
-  padding-top: 15px;
-  padding-left: 245px;
+.section-heading-and-logo .company-logo span {
+  position: relative;
+  top: 10px;
 }
 
-
-.about-section-column-container-desktop div {
-  float: left;
-  width: 29%;
-  padding-top: 10px;
-  padding-right: 52px;
-}
-
-.about-section-column-container-desktop img {
+.section-heading-and-logo .company-logo img {
   height: 48px;
-  padding-bottom: 10px;
-}
-
-.about-section-column-container-desktop .image-container {
-  padding-left: 115px;
-}
-
-.about-section-column-1 div,
-.about-section-column-2 div,
-.about-section-column-3 div {
-  width: 100%;
 }
 
 @media screen and (max-width: 1456px) {
@@ -326,7 +305,7 @@ label {
   }
 
   .banner-text-mobile h1 {
-    padding: 120px 0 360px 0 ;
+    padding: 120px 0 360px 0;
     width: 80%;
     margin: 0 auto;
   }
@@ -404,13 +383,32 @@ label {
 
   .privacy-matters-statement-mobile {
     font-size: 14;
-    margin: 0 auto;
     text-align: center;
     padding-top: 30px;
   }
 
-  .about-section-desktop {
+  .about-section-container {
+    width: 100%;
+  }
+
+  .section-heading-and-logo .heading {
+    width: 10%;
+    padding-left: 20px;
+  }
+
+  .section-heading-and-logo {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-heading-and-logo .company-logo {
+    width: 10%;
+  }
+
+  .section-heading-and-logo .company-logo span {
     display: none
   }
+
+  ;
 
 }
