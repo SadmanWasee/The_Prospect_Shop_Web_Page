@@ -216,7 +216,7 @@ label {
   padding-bottom: 20px;
 }
 
-.section-heading-and-logo .heading {
+.section-heading-and-logo .heading, .heading-2 {
   font-size: 32px;
   float: left;
   width: 45%;
@@ -257,13 +257,32 @@ label {
 }
 
 .importance img {
-  height: 42px;
+  height: 48px;
 }
 
 .about-section-top img , .about-section-bottom img {
   padding-left: 140px;
 }
 
+.clients-statement-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clients-statement .heading-2{
+  color: #5fa32e;
+  width: 45%;
+  float: left;
+}
+
+.company-logo-alt {
+  float: right;
+  padding-right: 100px;
+}
+
+.company-logo-alt-mobile {
+  display: none;
+}
 
 
 @media screen and (max-width: 1456px) {
@@ -425,7 +444,12 @@ label {
 
   .section-heading-and-logo .heading {
     width: 10%;
+    float: left;
     padding-left: 20px;
+  }
+
+  .section-heading-and-logo .heading-2 {
+    width: 50%;
   }
 
   .section-heading-and-logo {
@@ -446,6 +470,24 @@ label {
     margin: 0 auto;
     padding: 20px;
     display: block;
+  }
+
+  .about-section-top {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .clients-statement-container {
+    width: 100%;
+  }
+
+  .company-logo-alt {
+    display: none;
+  }
+
+  .company-logo-alt-mobile {
+    display: block;
+    float: right;
   }
 
 }
