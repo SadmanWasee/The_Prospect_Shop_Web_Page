@@ -32,6 +32,13 @@ a {
   color: black;
 }
 
+.color-green {
+  color: #5fa32e;
+}
+
+.color-gray {
+  color: #747575
+}
 .header {
   background-image: url(./images/header_bg.png);
   background-size: 100% 100%;
@@ -284,6 +291,28 @@ label {
   display: none;
 }
 
+.clients-statement-top div {
+  display: inline-block;
+  padding-right: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.clients-statement-top {
+  padding-bottom: 30px;
+}
+
+.clients-statement-top div h4{
+  margin: 3px;
+}
+
+.client-image {
+  padding-bottom: 20px;
+}
+
+.clents-statement-bottom {
+  display: inline-block;
+}
 
 @media screen and (max-width: 1456px) {
 
@@ -488,6 +517,13 @@ label {
   .company-logo-alt-mobile {
     display: block;
     float: right;
+  }
+
+  .clients-statement-top div {
+    display: block;
+    width: 60%;
+    padding: 20px ;
+    margin: 0 auto;
   }
 
 }
