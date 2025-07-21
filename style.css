@@ -349,6 +349,17 @@ label {
   top: 135px;
 }
 
+.footer {
+  background-image: url(./images/footer.png);
+  background-size: 100% 100%;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 20px 0;
+}
+
 @media screen and (max-width: 1456px) {
 
   body {
@@ -565,6 +576,11 @@ label {
     width: 100%;
   }
   .pictures {
+    text-align: center;
+  }
+
+  .footer-container{
+    width: 100%;
     text-align: center;
   }
 
