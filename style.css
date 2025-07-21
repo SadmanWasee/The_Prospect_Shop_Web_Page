@@ -1,433 +1,430 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
 }
 
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .font-weight-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .font-weight-100 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .color-white {
-    color: white;
+  color: white;
 }
 
 .color-black {
-    color: black;
+  color: black;
 }
 
 .header {
-    background-image: url(./images/header_bg.png);
-    background-size: 100% 100%;
+  background-image: url(./images/header_bg.png);
+  background-size: 100% 100%;
 
 }
 
 .header-container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 10px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .logo {
-    float: left;
-    width: 500px;
+  float: left;
+  width: 500px;
 }
 
 .brand-image {
-    height: 52px;
+  height: 52px;
 }
 
 .telno-and-navbar {
-    float: right;
-    padding-bottom: 10px;
+  float: right;
+  padding-bottom: 10px;
 }
 
 .telno {
-    float: right;
-    font-size: 24px;
-    padding: 0 10px;
+  float: right;
+  font-size: 24px;
+  padding: 0 10px;
 }
 
 .navbar {
-    float: right;
-    margin: 0;
-    padding: 10px 0px;
+  float: right;
+  margin: 0;
+  padding: 10px 0px;
 }
 
 
 .navbar li {
-    display: inline-block;
-    padding-right: 10px;
+  display: inline-block;
+  padding-right: 10px;
 }
 
 .navbar a {
-    color: white;
+  color: white;
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
 .banner-desktop-view {
-    background-image: url(./images/body_bg.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+  background-image: url(./images/body_bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .banner-mobile-view {
-    display: none;
+  display: none;
 }
 
 .banner-container {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .banner-text {
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
 
 .banner-text h1 {
-    width: 50%;
-    padding-top: 150px;
-    padding-bottom: 360px;
+  width: 50%;
+  padding-top: 150px;
+  padding-bottom: 360px;
 }
 
 .banner-text span {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .download-form-segment {
-    position: relative;
-    float: right;
-    width: 30%;
+  position: relative;
+  float: right;
+  width: 30%;
 }
 
 .download-form-segment img {
-    float: right;
-    height: 680px;
+  float: right;
+  height: 680px;
 }
 
 .download-form {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .download-form-container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .company-logo {
-    width: 100%;
-    padding: 0 15px;
+  padding: 0 10px;
 }
 
 .company-logo img {
-    height: 48px;
-    float: left;
-    padding-right: 15px;
+  height: 48px;
+  float: left;
+  padding-right: 15px;
 }
 
 .company-logo p {
-    padding-top: 15px;
-    font-size: 24px;
+  padding-top: 15px;
+  font-size: 24px;
 
 }
 
 .branding-statement {
-    text-align: center;
-    width: 100%;
-    padding-bottom: 20px;
-    font-size: 14px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
 
 .download-guide-container {
-    margin-top: 15px;
-    width: 100%;
+  margin-top: 15px;
+  width: 100%;
 }
 
 .download-guide {
-    /* width: 225px; */
-    margin: 0 auto;
-    background-color: #151617;
-    padding: 20px;
+  margin: 0 auto;
+  background-color: #151617;
+  padding: 20px;
 }
 
 .download-guide-tex {
-    width: 100px;
-    float: left;
-    font-size: 21px;
+  width: 100px;
+  float: left;
+  font-size: 21px;
 }
 
 .download-guide img {
-    height: 42px;
-    float: right;
+  height: 42px;
+  float: right;
 }
 
 .download-form-container form {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .download-form form input,
 label {
-    display: block;
+  display: block;
 }
 
 .download-form form input {
-    font-size: 16px;
-    width: 100%;
+  font-size: 16px;
+  width: 100%;
 }
 
 .download-form-mobile {
-    display: none;
+  display: none;
 }
 
 .privacy-matters-statement {
-    width: 260px;
-    font-size: 14px;
-    text-align: center;
-    padding-left: 15px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .about-section-desktop {
-    background-color: #5fa32e;
+  background-color: #5fa32e;
 }
 
 .about-section-container-desktop {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .section-title-and-company-logo {
-    width: 100%;
-    padding-top: 30px;
+  width: 100%;
+  padding-top: 30px;
 }
 
 .section-title {
-    float: left;
-    width: 40%;
+  float: left;
+  width: 40%;
 }
 
 .section-title-and-company-logo .company-logo {
-    float: right;
-    width: 50%;
+  float: right;
+  width: 50%;
 
 }
 
 .section-title-and-company-logo .company-logo img {
-    padding-top: 15px;
-    padding-left: 245px;
+  padding-top: 15px;
+  padding-left: 245px;
 }
 
 
-.about-section-column-container-desktop div{
-    float: left;
-    width: 29%;
-    padding-top: 10px;
-    padding-right: 52px;
+.about-section-column-container-desktop div {
+  float: left;
+  width: 29%;
+  padding-top: 10px;
+  padding-right: 52px;
 }
 
 .about-section-column-container-desktop img {
-    height: 48px;
-    padding-bottom: 10px;
+  height: 48px;
+  padding-bottom: 10px;
 }
 
 .about-section-column-container-desktop .image-container {
-    padding-left: 115px;
+  padding-left: 115px;
 }
 
-.about-section-column-1 div, .about-section-column-2 div, .about-section-column-3 div {
-    width: 100%;
-} 
+.about-section-column-1 div,
+.about-section-column-2 div,
+.about-section-column-3 div {
+  width: 100%;
+}
 
-@media screen and (max-width: 1451px) {
+@media screen and (max-width: 1456px) {
 
-    body {
-        width: 1450px;
-    }
+  body {
+    width: 1455px;
+  }
 
-    body div {
-        width: 1450px;
-    }
+  body div {
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    body {
-        width: 575px;
-    }
+  body {
+    width: 575px;
+  }
 
-    body div {
-        width: 575px;
-    }
+  body div {
+    background-size: cover;
+  }
 
-    .telno-and-navbar {
-        display: none;
-    }
+  .telno-and-navbar {
+    display: none;
+  }
 
-    .header-container {
-        width: 100%;
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
+  .header-container {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
 
-    .hamburger {
-        display: inline-block;
-        width: 20%;
-        text-align: right;
+  .hamburger {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
 
-    }
+  }
 
-    .hamburger img {
-        height: 50px;
-        padding: 10px;
-    }
+  .hamburger img {
+    height: 50px;
+    padding: 10px;
+  }
 
-    .logo {
-        position: relative;
-        display: inline-block;
-        width: 75%;
-        padding: 10px;
-    }
+  .logo {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    padding: 10px;
+  }
 
-    .banner-desktop-view {
-        display: none;
-    }
+  .banner-desktop-view {
+    display: none;
+  }
 
-    .banner-mobile-view {
-        display: block;
-        width: 575px;
-    }
+  .banner-mobile-view {
+    display: block;
+    width: 575px;
+  }
 
-    .banner-mobile img {
-        width: 575px;
-        height: 600px;
-        object-fit: cover;
-        object-position: 9% 10%;
-    }
+  .banner-mobile img {
+    width: 575px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 9% 10%;
+  }
 
-    .banner-text-mobile {
-        position: absolute;
-        text-align: center;
-    }
+  .banner-text-mobile {
+    position: absolute;
+    text-align: center;
+  }
 
-    .banner-text-mobile h1 {
-        padding: 120px 50px 355px 50px;
-        margin: 0 auto;
-    }
+  .banner-text-mobile h1 {
+    padding: 120px 50px 355px 50px;
+    margin: 0 auto;
+  }
 
-    .download-form-mobile {
-        display: block;
+  .download-form-mobile {
+    display: block;
 
-    }
+  }
 
-    .download-form-mobile {
-        background-image: url(./images/container_bg_2.png);
-        background-size: 100% 100%;
-        height: 850px;
-    }
+  .download-form-mobile {
+    background-image: url(./images/container_bg_2.png);
+    background-size: 100% 100%;
+    height: 850px;
+  }
 
-    .download-form-container-mobile {
-        width: 450px;
-        margin: 0 auto;
-        padding-top: 20px;
+  .download-form-container-mobile {
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 20px;
 
-    }
+  }
 
-    .logo-and-brand-statement-mobile {
-        width: 450px;
-        margin: 0 auto;
-    }
+  .logo-and-brand-statement-mobile {
+    width: 450px;
+    margin: 0 auto;
+  }
 
-    .company-logo-mobile {
-        width: 350px;
-        margin: 0 auto;
-        position: relative;
-        vertical-align: middle;
-        padding-top: 20px;
-    }
+  .company-logo-mobile {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+    padding-top: 20px;
+  }
 
-    .company-logo-mobile img {
-        float: left;
-        height: 52px;
-    }
+  .company-logo-mobile img {
+    float: left;
+    height: 52px;
+  }
 
-    .company-logo-mobile h1 {
-        float: right;
-        margin: 0;
-        padding-top: 8px;
-    }
+  .company-logo-mobile h1 {
+    float: right;
+    margin: 0;
+    padding-top: 8px;
+  }
 
-    .brand-statement-mobile {
-        width: 365px;
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 20px;
-    }
+  .brand-statement-mobile {
+    width: 365px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
 
-    .download-guide-form-mobile {
-        width: 365px;
-        margin: 0 auto;
-        padding-top: 20px;
-    }
+  .download-guide-form-mobile {
+    width: 365px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
 
-    .download-guide-form-mobile label,
-    input {
-        width: 100%;
-        padding-top: 15px;
+  .download-guide-form-mobile label,
+  input {
+    width: 100%;
+    padding-top: 15px;
 
-    }
+  }
 
-    .download-guide-button-mobile {
-        width: 365px;
-        margin: 0 auto;
-        padding-top: 30px;
-    }
+  .download-guide-button-mobile {
+    width: 365px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
 
-    .download-guide-button-container-mobile {
-        width: 290px;
-        padding: 40px;
-        background-color: #151617;
-        margin: 0 auto;
-    }
+  .download-guide-button-container-mobile {
+    width: 290px;
+    padding: 40px;
+    background-color: #151617;
+    margin: 0 auto;
+  }
 
-    .download-guide-text-moble {
-        width: 80px;
-        float: left;
-        font-size: 28px;
-    }
+  .download-guide-text-moble {
+    width: 80px;
+    float: left;
+    font-size: 28px;
+  }
 
-    .download-guide-button-container-mobile img {
-        float: right;
-    }
+  .download-guide-button-container-mobile img {
+    float: right;
+  }
 
-    .privacy-matters-statement-mobile {
-        font-size: 14;
-        width: 365px;
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 30px;
-    }
+  .privacy-matters-statement-mobile {
+    font-size: 14;
+    width: 365px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+  }
 
-    .about-section-desktop {
-        display: none
-    }
+  .about-section-desktop {
+    display: none
+  }
 
 }
