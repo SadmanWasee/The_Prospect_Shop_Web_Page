@@ -310,7 +310,7 @@ label {
 
   .banner-mobile-view {
     display: block;
-    width: 575px;
+    position: relative;
   }
 
   .banner-mobile img {
@@ -326,38 +326,33 @@ label {
   }
 
   .banner-text-mobile h1 {
-    padding: 120px 50px 355px 50px;
+    padding: 120px 0 360px 0 ;
+    width: 80%;
     margin: 0 auto;
   }
 
   .download-form-mobile {
     display: block;
-
   }
 
   .download-form-mobile {
     background-image: url(./images/container_bg_2.png);
     background-size: 100% 100%;
-    height: 850px;
+    height: 870px;
   }
 
   .download-form-container-mobile {
-    width: 450px;
+    width: 65%;
     margin: 0 auto;
     padding-top: 20px;
 
   }
 
   .logo-and-brand-statement-mobile {
-    width: 450px;
-    margin: 0 auto;
+    padding-top: 20px;
   }
 
   .company-logo-mobile {
-    width: 350px;
-    margin: 0 auto;
-    position: relative;
-    vertical-align: middle;
     padding-top: 20px;
   }
 
@@ -373,15 +368,11 @@ label {
   }
 
   .brand-statement-mobile {
-    width: 365px;
-    margin: 0 auto;
     text-align: center;
     padding-top: 20px;
   }
 
   .download-guide-form-mobile {
-    width: 365px;
-    margin: 0 auto;
     padding-top: 20px;
   }
 
@@ -393,16 +384,12 @@ label {
   }
 
   .download-guide-button-mobile {
-    width: 365px;
-    margin: 0 auto;
     padding-top: 30px;
   }
 
   .download-guide-button-container-mobile {
-    width: 290px;
     padding: 40px;
     background-color: #151617;
-    margin: 0 auto;
   }
 
   .download-guide-text-moble {
@@ -417,7 +404,6 @@ label {
 
   .privacy-matters-statement-mobile {
     font-size: 14;
-    width: 365px;
     margin: 0 auto;
     text-align: center;
     padding-top: 30px;
