@@ -579,6 +579,11 @@ label {
     text-align: center;
   }
 
+  .download-guide-button-2 span {
+    padding-left: 120px;
+    padding-right: 150px;
+  }
+
   .footer-container{
     width: 100%;
     text-align: center;
