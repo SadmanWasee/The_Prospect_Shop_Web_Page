@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-size: cover;
 }
 
 
@@ -49,6 +48,7 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding-top: 10px;
+  
 }
 
 .logo {
@@ -139,10 +139,6 @@ a {
   margin: 0 auto;
 }
 
-.company-logo {
-  padding: 0 10px;
-}
-
 .company-logo img {
   height: 48px;
   float: left;
@@ -214,9 +210,6 @@ label {
   margin: 0 auto;
 }
 
-.section-heading-and-logo {
-  padding-bottom: 20px;
-}
 
 .section-heading-and-logo .heading, .heading-2 {
   font-size: 32px;
@@ -227,6 +220,8 @@ label {
 .section-heading-and-logo .company-logo {
   float: right;
   font-size: 30px;
+  width: 30%;
+  vertical-align: middle;
 }
 
 .section-heading-and-logo .company-logo span {
@@ -243,24 +238,25 @@ label {
 }
 
 .about-section-top div, .about-section-bottom div {
-  width: 30%;
-  padding: 0 30px 0px 0;
+  width: 33%;
+  padding: 0 50px 0px 0;
   display: inline-block;
   vertical-align: top;
+  box-sizing: border-box;
 }
 
 .importance img {
   height: 48px;
 }
 
-.about-section-top img , .about-section-bottom img {
-  padding-left: 140px;
-}
-
 .clients-statement-container {
   width: 1200px;
   margin: 0 auto;
-  padding-top: 20px;
+}
+
+.section-heading-and-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .company-logo-alt {
@@ -275,8 +271,9 @@ label {
   display: inline-block;
   padding-right: 30px;
   vertical-align: top;
-  width: 30%;
+  width: 33%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .clients-statement-top {
@@ -522,9 +519,8 @@ label {
   }
 
   .about-section-top div, .about-section-bottom div{
-    width: 60%;
-    margin: 0 auto;
-    padding: 20px;
+    width: 100%;
+    padding: 20px 120px 20px 120px;
     display: block;
   }
 
@@ -548,9 +544,8 @@ label {
 
   .clients-statement-top div {
     display: block;
-    width: 60%;
-    padding: 20px ;
-    margin: 0 auto;
+    width: 100%;
+    padding: 20px 120px 20px 120px;
   }
   .clients-statement-bottom div {
     display: block;
