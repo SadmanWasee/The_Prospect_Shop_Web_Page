@@ -221,14 +221,11 @@ label {
 .section-heading-and-logo .heading, .heading-2 {
   font-size: 32px;
   float: left;
-  width: 45%;
   padding-top: 10px;
 }
 
 .section-heading-and-logo .company-logo {
   float: right;
-  width: 35%;
-  padding-left: 230px;
   font-size: 30px;
 }
 
@@ -242,18 +239,12 @@ label {
 }
 
 .about-section-top, .about-section-bottom {
-  margin: 10px;
-  padding-bottom: 30px;
-}
-
-.about-section-bottom {
-  vertical-align: bottom;
+  padding: 20px 0 30px 0;
 }
 
 .about-section-top div, .about-section-bottom div {
   width: 30%;
-  height: auto;
-  padding: 0 20px 0px 0;
+  padding: 0 30px 0px 0;
   display: inline-block;
   vertical-align: top;
 }
@@ -269,17 +260,11 @@ label {
 .clients-statement-container {
   width: 1200px;
   margin: 0 auto;
-}
-
-.clients-statement .heading-2{
-  color: #5fa32e;
-  width: 45%;
-  float: left;
+  padding-top: 20px;
 }
 
 .company-logo-alt {
   float: right;
-  padding-right: 100px;
 }
 
 .company-logo-alt-mobile {
@@ -289,6 +274,7 @@ label {
 .clients-statement-top div {
   display: inline-block;
   padding-right: 30px;
+  vertical-align: top;
   width: 30%;
   text-align: center;
 }
