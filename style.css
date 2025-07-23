@@ -532,8 +532,12 @@ label {
     display: none;
   }
 
-  .about-section-top div,
-  .about-section-bottom div {
+.basics,
+.importance,
+.techniques,
+.how-segment,
+.competition-leads,
+.email-leads  {
     width: 100%;
     padding: 20px 120px 20px 120px;
     display: block;
@@ -563,13 +567,17 @@ label {
     padding: 20px 120px 20px 120px;
   }
 
-  .clients-statement-bottom div {
+  .pictures, .download-guide-button-2 {
     display: block;
     width: 100%;
   }
 
   .pictures {
     text-align: center;
+  }
+
+  .pictures img {
+    padding-right: 0;
   }
 
   .download-guide-button-2 span {
@@ -582,5 +590,8 @@ label {
     text-align: center;
   }
 
+  .center-image {
+    max-width: 100%;
+  }
 
 }
