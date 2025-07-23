@@ -38,6 +38,7 @@ a {
 .color-gray {
   color: #747575
 }
+
 .header {
   background-image: url(./images/header_bg.png);
   background-size: 100% 100%;
@@ -48,7 +49,7 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding-top: 10px;
-  
+
 }
 
 .logo {
@@ -202,7 +203,6 @@ label {
 
 .about-section {
   background-color: #5fa32e;
-  padding-top: 30px;
 }
 
 .about-section-container {
@@ -211,7 +211,8 @@ label {
 }
 
 
-.section-heading-and-logo .heading, .heading-2 {
+.section-heading-and-logo .heading,
+.heading-2 {
   font-size: 32px;
   float: left;
   padding-top: 10px;
@@ -233,13 +234,19 @@ label {
   height: 48px;
 }
 
-.about-section-top, .about-section-bottom {
+.about-section-top,
+.about-section-bottom {
   padding: 20px 0 30px 0;
 }
 
-.about-section-top div, .about-section-bottom div {
+.basics,
+.importance,
+.techniques,
+.how-segment,
+.competition-leads,
+.email-leads {
   width: 33%;
-  padding: 0 50px 0px 0;
+  padding: 0 70px 0px 0;
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -247,6 +254,10 @@ label {
 
 .importance img {
   height: 48px;
+}
+
+.center-image {
+  text-align: center;
 }
 
 .clients-statement-container {
@@ -269,18 +280,22 @@ label {
 
 .clients-statement-top div {
   display: inline-block;
-  padding-right: 30px;
+  padding-right: 70px;
   vertical-align: top;
   width: 33%;
   text-align: center;
   box-sizing: border-box;
 }
 
+.clients-statement-top div p {
+  height: 150px;
+}
+
 .clients-statement-top {
   padding-bottom: 80px;
 }
 
-.clients-statement-top div h4{
+.clients-statement-top div h4 {
   margin: 3px;
 }
 
@@ -288,44 +303,43 @@ label {
   padding-bottom: 20px;
 }
 
-.clients-statement-bottom div{
+.clients-statement-bottom div {
   display: inline-block;
 }
 
 .pictures {
   width: 60%;
+  vertical-align: bottom;
+}
+
+.pictures img {
+  padding-right: 50px;
 }
 
 .download-guide-button-2 {
   width: 38%;
-  position: relative;
-}
-
-.download-guide-button-2-text {
-  position: absolute;
-  color: white;
-  top: 120px;
-  left: 80px;
-  font-size: 31px;
-}
-
-.download-guide-button-2 {
   background-image: url(./images/container_bg_alt.png);
   background-size: 100% 100%;
-  padding: 100px 0px 20px 0px ;
+  padding: 80px 0px 20px 0px;
   font-size: 34px;
 }
 
-.download-guide-button-2 span {
-  padding-left: 100px;
-  padding-right: 100px;
+.download-guide-button-2-container {
+  width: 100%;
+  padding: 5;
 }
 
-.download-guide-button-2 img {
-  height: 48px;
-  position: absolute;
-  top: 115px;
+.download-guide-button-2-text{
+  display: inline-block; 
+  width: 40%;
+  padding-left: 100px;
 }
+
+.download-guide-button-2-container img {
+  height: 52px;
+}
+
+
 
 .footer {
   background-image: url(./images/footer.png);
@@ -518,7 +532,8 @@ label {
     display: none;
   }
 
-  .about-section-top div, .about-section-bottom div{
+  .about-section-top div,
+  .about-section-bottom div {
     width: 100%;
     padding: 20px 120px 20px 120px;
     display: block;
@@ -547,10 +562,12 @@ label {
     width: 100%;
     padding: 20px 120px 20px 120px;
   }
+
   .clients-statement-bottom div {
     display: block;
     width: 100%;
   }
+
   .pictures {
     text-align: center;
   }
@@ -560,7 +577,7 @@ label {
     padding-right: 150px;
   }
 
-  .footer-container{
+  .footer-container {
     width: 100%;
     text-align: center;
   }
