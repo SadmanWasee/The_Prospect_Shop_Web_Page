@@ -580,9 +580,8 @@ label {
     padding-right: 0;
   }
 
-  .download-guide-button-2 span {
-    padding-left: 120px;
-    padding-right: 150px;
+  .download-guide-button-2-text {
+    padding-left: 150px;
   }
 
   .footer-container {
