@@ -249,6 +249,11 @@ label {
   height: 300px;
 }
 
+.about-section h2 {
+  height:  80px;
+}
+
+
 .left {
   padding-right: 50px;
 }
@@ -268,6 +273,7 @@ label {
 
 .center-image {
   text-align: center;
+  height: 50px;
 }
 
 .clients-statement-container {
@@ -288,9 +294,10 @@ label {
   display: none;
 }
 
-.clients-statement-top div {
-  display: inline-block;
-  padding-right: 70px;
+.carlon-leong,
+.griffith-university,
+.samsung-communications {
+  float: left;
   vertical-align: top;
   width: 33%;
   text-align: center;
@@ -298,7 +305,7 @@ label {
 }
 
 .clients-statement-top div p {
-  height: 200px;
+  height: 180px;
 }
 
 .clients-statement-top {
@@ -319,7 +326,6 @@ label {
 
 .pictures {
   width: 60%;
-  vertical-align: bottom;
 }
 
 .pictures img {
@@ -327,7 +333,7 @@ label {
 }
 
 .download-guide-button-2 {
-  width: 38%;
+  height: 150px;
   background-image: url(./images/container_bg_alt.png);
   background-size: 100% 100%;
   padding: 80px 0px 20px 0px;
@@ -336,7 +342,7 @@ label {
 
 .download-guide-button-2-container {
   width: 100%;
-  padding: 5;
+  padding-top: 50px;
 }
 
 .download-guide-button-2-text {
@@ -364,10 +370,10 @@ label {
 
 
 
-@media screen and (max-width: 1456px) {
+@media screen and (max-width: 1201px) {
 
   body {
-    width: 1455px;
+    width: 1200px;
   }
 
   body div {
@@ -380,6 +386,9 @@ label {
   body {
     width: 575px;
   }
+  body div {
+    background-size: cover;
+  } 
 
   .telno-and-navbar {
     display: none;
