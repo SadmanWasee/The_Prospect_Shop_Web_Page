@@ -45,8 +45,7 @@ a {
 }
 
 .header-container {
-  width: 1200px;
-  margin: 0 auto;
+  padding: 0 10%;
   padding-top: 10px;
 
 }
@@ -100,8 +99,7 @@ a {
 }
 
 .banner-container {
-  width: 1200px;
-  margin: 0 auto;
+ padding: 0 10%;
 }
 
 .banner-text {
@@ -138,6 +136,10 @@ a {
 
 .download-form-container {
   padding: 0px 40px 0px 40px;
+}
+
+.p {
+  float: right;
 }
 
 .company-logo img {
@@ -202,8 +204,7 @@ label {
 }
 
 .about-section-container {
-  width: 1200px;
-  margin: 0 auto;
+  padding: 0 10%;
 }
 
 
@@ -231,10 +232,6 @@ label {
   height: 48px;
 }
 
-.about-section-top,
-.about-section-bottom {
-  padding: 20px 0 30px 0;
-}
 
 .basics,
 .importance,
@@ -277,8 +274,7 @@ label {
 }
 
 .clients-statement-container {
-  width: 1200px;
-  margin: 0 auto;
+  padding: 0 10%;
 }
 
 .section-heading-and-logo {
@@ -305,7 +301,7 @@ label {
 }
 
 .clients-statement-top div p {
-  height: 180px;
+  height: 20dvh;
 }
 
 .clients-statement-top {
@@ -320,19 +316,18 @@ label {
   padding-bottom: 20px;
 }
 
-.clients-statement-bottom div {
-  display: inline-block;
-}
-
 .pictures {
   width: 60%;
+  padding-top: 5%;
+  float: left
 }
 
 .pictures img {
-  padding-right: 50px;
+  padding-right: 5%;
 }
 
 .download-guide-button-2 {
+  float: right;
   height: 150px;
   background-image: url(./images/container_bg_alt.png);
   background-size: 100% 100%;
@@ -363,33 +358,21 @@ label {
 }
 
 .footer-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 40px 0 20px 0;
+  padding: 20px 10% 20px 10%;
 }
 
 
 
-@media screen and (max-width: 1201px) {
-
-  body {
-    width: 1200px;
-  }
-
-  body div {
-    background-size: cover;
-  }
-}
 
 @media screen and (max-width: 576px) {
 
-  body {
-    width: 575px;
-  }
 
+  /* body {
+    width: 576px;
+  }
   body div {
     background-size: cover;
-  }
+  } */
 
   .telno-and-navbar {
     display: none;
@@ -397,8 +380,8 @@ label {
 
   .header-container {
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding : 10px 0 5px 0;
+
   }
 
   .hamburger {
@@ -427,6 +410,7 @@ label {
 
   .banner-container {
     width: 100%;
+    padding: 0;
   }
 
   .banner-text {
@@ -440,7 +424,7 @@ label {
 
   .banner-text h1 {
     width: 100%;
-    padding: 150px 50px 300px 50px;
+    padding: 150px 10px 300px 10px;
     box-sizing: border-box;
     margin: 0;
   }
@@ -450,13 +434,8 @@ label {
     width: 100%;
   }
 
-  .download-form {
-    padding: 0px 80px 0px 80px;
-  }
 
   .company-logo {
-    width: 70%;
-    margin: 0 auto;
     padding-top: 10px;
   }
 
@@ -475,6 +454,7 @@ label {
 
   .about-section-container {
     width: 100%;
+    padding: 0;;
   }
 
   .section-heading-and-logo .heading {
@@ -496,7 +476,7 @@ label {
     width: 10%;
   }
 
-  .section-heading-and-logo .company-logo span {
+  .section-heading-and-logo .p span {
     display: none;
   }
 
@@ -508,11 +488,12 @@ label {
   .email-leads {
     float: none;
     width: 100%;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 8% 20px 8%;
   }
 
   .clients-statement-container {
     width: 100%;
+    padding: 0;
   }
 
   .company-logo-alt {
@@ -529,7 +510,7 @@ label {
   .samsung-communications {
     float: none;
     width: 100%;
-    padding: 20px 80px 20px 80px;
+    padding: 20px 8% 20px 8%;
   }
 
   .pictures,
@@ -548,13 +529,14 @@ label {
   }
 
   .download-guide-button-2-text {
-    padding-left: 150px;
+    padding-left: 25%;
 
   }
 
   .footer-container {
     width: 100%;
     text-align: center;
+    padding: 0;
   }
 
   .center-image {
