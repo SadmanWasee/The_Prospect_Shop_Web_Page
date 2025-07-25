@@ -45,7 +45,8 @@ a {
 }
 
 .header-container {
-  padding: 0 10%;
+  width: 1200px;
+  margin: 0 auto;
   padding-top: 10px;
 
 }
@@ -99,7 +100,8 @@ a {
 }
 
 .banner-container {
- padding: 0 10%;
+ width: 1200px;
+ margin: 0 auto;
 }
 
 .banner-text {
@@ -204,7 +206,8 @@ label {
 }
 
 .about-section-container {
-  padding: 0 10%;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 
@@ -274,7 +277,8 @@ label {
 }
 
 .clients-statement-container {
-  padding: 0 10%;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .section-heading-and-logo {
@@ -358,21 +362,32 @@ label {
 }
 
 .footer-container {
-  padding: 20px 10% 20px 10%;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 
+@media  screen and (max-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+  body div {
+    background-size: cover;
+  }
+  
+}
 
 
 @media screen and (max-width: 576px) {
 
 
-  /* body {
+  body {
     width: 576px;
   }
   body div {
     background-size: cover;
-  } */
+  }
 
   .telno-and-navbar {
     display: none;
@@ -437,6 +452,8 @@ label {
 
   .company-logo {
     padding-top: 10px;
+    width: 60%;
+    margin: 0 auto;
   }
 
   .company-logo img {
