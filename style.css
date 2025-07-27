@@ -140,20 +140,33 @@ a {
   padding: 0px 40px 0px 40px;
 }
 
-.p {
+.company-logo-white {
   float: right;
+  font-size: 38px;
 }
 
-.company-logo img {
+.company-logo-white img {
   height: 48px;
   float: left;
   padding-right: 15px;
 }
 
-.company-logo p {
-  padding-top: 15px;
-  font-size: 24px;
+.company-logo{
+  padding-top: 10px;
+  width: 90%;
+  margin: 0 auto;
 }
+
+.company-logo p{
+  font-size: 22px;
+  float: right;
+}
+
+.company-logo img {
+    float: left;
+    height: 48px;
+    padding-top: 5px;
+  }
 
 .branding-statement {
   text-align: center;
@@ -553,7 +566,7 @@ label {
   .footer-container {
     width: 100%;
     text-align: center;
-    padding: 0;
+    padding: 10px 0px;
   }
 
   .center-image {
