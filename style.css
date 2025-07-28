@@ -105,7 +105,7 @@ a {
 .banner-text h1 {
   width: 50%;
   padding-top: 150px;
-  padding-bottom: 360px;
+  padding-bottom: 400px;
 }
 
 .banner-text span {
@@ -117,7 +117,7 @@ a {
   width: 30%;
   background-image: url(./images/container_bg_2.png);
   background-size: 100% 100%;
-  height: 730px;
+  height: 750px;
 }
 
 .download-form-segment img {
@@ -342,7 +342,7 @@ label {
 }
 
 .download-guide-button-2-container {
-  padding: 60px 125px 0px 125px;
+  padding: 60px 80px 0px 80px;
   box-sizing: border-box;
 }
 
