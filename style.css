@@ -1,3 +1,4 @@
+/*#region common settings*/
 body {
   padding: 0;
   margin: 0;
@@ -38,11 +39,17 @@ a {
   color: #747575
 }
 
+.color-light-gray {
+  color: #D3D3D3;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
+/*#endregion common settings*/
 
+/*#region header*/
 .header {
   background-image: url(./images/header_bg.png);
   background-size: 100% 100%;
@@ -86,7 +93,9 @@ a {
 .hamburger {
   display: none;
 }
+/*#endregion header*/
 
+/*#region banner */
 .banner {
   background-image: url(./images/body_bg.jpg);
   background-size: 100% 100%;
@@ -117,7 +126,7 @@ a {
   width: 30%;
   background-image: url(./images/container_bg_2.png);
   background-size: 100% 100%;
-  height: 750px;
+  height: 720px;
 }
 
 .download-form-segment img {
@@ -132,23 +141,6 @@ a {
 .download-form-container {
   padding: 0px 40px 0px 40px;
 }
-
-.company-logo-white {
-  float: right;
-  font-size: 36px;
-}
-
-.company-logo-white span {
-  position: relative;
-  top: 6px;
-}
-
-.company-logo-white img {
-  height: 52px;
-  float: left;
-  padding-right: 10px;
-}
-
 
 .company-logo {
   padding-top: 10px;
@@ -169,17 +161,16 @@ a {
 
 .branding-statement {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 14px;
   font-size: 14px;
 }
-
 
 .download-guide {
   background-color: #151617;
   padding: 20px;
 }
 
-.download-guide-tex {
+.download-guide-text {
   width: 100px;
   float: left;
   font-size: 21px;
@@ -191,7 +182,7 @@ a {
 }
 
 .download-form form {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .download-form form input,
@@ -199,8 +190,12 @@ label {
   display: block;
 }
 
+.download-form form label {
+  padding-top: 10px;
+}
+
 .download-form form input {
-  font-size: 26px;
+  font-size: 28px;
   width: 98%;
 }
 
@@ -211,8 +206,11 @@ label {
 .privacy-matters-statement {
   font-size: 14px;
   text-align: center;
+  padding-top: 20px;
 }
+/*#endregion banner */
 
+/*#region about-section*/
 .about-section {
   background-color: #5fa32e;
 }
@@ -230,20 +228,20 @@ label {
   font-weight: 200;
 }
 
-.section-heading-and-logo .company-logo {
+.company-logo-white {
   float: right;
-  font-size: 30px;
-  width: 30%;
-  vertical-align: middle;
+  font-size: 36px;
 }
 
-.section-heading-and-logo .company-logo span {
+.company-logo-white span {
   position: relative;
-  top: 8px;
+  top: 6px;
 }
 
-.section-heading-and-logo .company-logo img {
-  height: 48px;
+.company-logo-white img {
+  height: 52px;
+  float: left;
+  padding-right: 10px;
 }
 
 .about-descritption-box {
@@ -278,7 +276,9 @@ label {
   text-align: center;
   height: 50px;
 }
+/*#endregion about-section*/
 
+/*#region clients-statement*/
 .clients-statement-container {
   width: 1200px;
   margin: 0 auto;
@@ -306,7 +306,7 @@ label {
 }
 
 .clients-statement-top div p {
-  height: 170px;
+  height: 200px;
 }
 
 .clients-statement-top {
@@ -355,7 +355,9 @@ label {
   float: left;
   width: 40%;
 }
+/*#endregion clients-statement*/
 
+/*#region footer*/
 .footer {
   background-image: url(./images/footer.png);
   background-size: 100% 100%;
@@ -364,10 +366,12 @@ label {
 .footer .container {
   padding: 20px 0;
 }
+/*#endregion footer*/
 
-
+/*#region mobile view*/
 @media screen and (max-width: 576px) {
 
+/*#region common settings*/
   body div {
     background-size: cover;
   }
@@ -380,7 +384,9 @@ label {
     width: 100%;
     padding: 0px;
   }
+/*#endregion common settings*/
 
+/*#region header*/
   .hamburger {
     display: block;
     float: right;
@@ -400,7 +406,9 @@ label {
     padding: 10px;
     width: 69%;
   }
+/*#endregion header*/
 
+/*#region banner*/
   .banner {
     background-image: none;
   }
@@ -426,10 +434,8 @@ label {
     width: 100%;
   }
 
-
   .company-logo {
-    padding: 10px 0;
-    box-sizing: border-box; 
+    padding: 10px 0; 
   }
 
   .company-logo img {
@@ -438,10 +444,12 @@ label {
 
   .company-logo p {
     float: right;
-    margin-top: 0;
+    margin: 0;
     padding-top: 20px;
   }
+/*#endregion banner*/
 
+/*#region about-section*/
   .about-section {
     width: 100%;
   }
@@ -465,9 +473,11 @@ label {
   .about-descritption-box {
     float: none;
     width: 100%;
-    padding: 20px 40px;
+    padding: 20px 15px;
   }
+/*#endregion about-section*/
 
+/*#region clients statement*/
   .company-logo-alt {
     display: none;
   }
@@ -504,7 +514,9 @@ label {
     padding: 60px;
     box-sizing: border-box;
   }
+/*#endregion clients statement*/
 
+/*#region footer*/
   .footer .container {
     text-align: center;
     padding: 20px 0px;
@@ -513,6 +525,8 @@ label {
   .center-image {
     max-width: 100%;
   }
-
+/*#endregion footer*/
 
 }
+
+/*#endregion mobile view*/
