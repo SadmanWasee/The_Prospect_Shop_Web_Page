@@ -105,7 +105,6 @@ a {
   display: none;
 }
 
-
 .banner-text {
   width: 70%;
   float: left;
@@ -114,7 +113,7 @@ a {
 .banner-text h1 {
   width: 50%;
   padding-top: 150px;
-  padding-bottom: 400px;
+  padding-bottom: 380px;
 }
 
 .banner-text span {
@@ -126,12 +125,11 @@ a {
   width: 30%;
   background-image: url(./images/container_bg_2.png);
   background-size: 100% 100%;
-  height: 720px;
+  height: 700px;
 }
 
 .download-form-segment img {
   float: right;
-
 }
 
 .download-form {
@@ -219,7 +217,6 @@ label {
   width: 1200px;
   margin: 0 auto;
 }
-
 
 .section-heading-and-logo .section-heading{
   font-family: "Raleway", sans-serif;
