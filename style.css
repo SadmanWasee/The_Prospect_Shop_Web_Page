@@ -247,12 +247,7 @@ label {
   height: 48px;
 }
 
-.basics,
-.importance,
-.techniques,
-.how-segment,
-.competition-leads,
-.email-leads {
+.about-descritption-box {
   width: 33%;
   float: left;
   box-sizing: border-box;
@@ -303,9 +298,7 @@ label {
   display: none;
 }
 
-.carlon-leong,
-.griffith-university,
-.samsung-communications {
+.clients-statement-description-box {
   float: left;
   vertical-align: top;
   width: 33%;
@@ -473,12 +466,7 @@ label {
     display: none;
   }
 
-  .basics,
-  .importance,
-  .techniques,
-  .how-segment,
-  .competition-leads,
-  .email-leads {
+  .about-descritption-box {
     float: none;
     width: 100%;
     padding: 20px 8% 20px 8%;
@@ -523,7 +511,6 @@ label {
   }
 
   .footer .container {
-    width: 100%;
     text-align: center;
     padding: 20px 0px;
   }
