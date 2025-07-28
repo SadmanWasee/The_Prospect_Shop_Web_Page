@@ -4,7 +4,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -39,16 +38,14 @@ a {
   color: #747575
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   background-image: url(./images/header_bg.png);
   background-size: 100% 100%;
-}
-
-.header-container {
-  width: 1200px;
-  margin: 0 auto;
-
-
 }
 
 .logo {
@@ -77,7 +74,6 @@ a {
   padding: 10px 0px;
 }
 
-
 .navbar li {
   display: inline-block;
   padding-right: 10px;
@@ -100,10 +96,6 @@ a {
   display: none;
 }
 
-.banner-container {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .banner-text {
   width: 70%;
@@ -255,7 +247,6 @@ label {
   height: 48px;
 }
 
-
 .basics,
 .importance,
 .techniques,
@@ -271,7 +262,6 @@ label {
 .about-section h2 {
   height: 80px;
 }
-
 
 .left {
   padding-right: 50px;
@@ -369,39 +359,17 @@ label {
   padding-left: 100px;
 }
 
-
-
-
 .footer {
   background-image: url(./images/footer.png);
   background-size: 100% 100%;
 }
 
-.footer-container {
-  width: 1200px;
-  margin: 0 auto;
+.footer .container {
   padding: 20px 0;
 }
 
 
-@media screen and (max-width: 1200px) {
-  body {
-    width: 1200px;
-  }
-
-  body div {
-    background-size: cover;
-  }
-
-}
-
-
 @media screen and (max-width: 576px) {
-
-
-  body {
-    width: 576px;
-  }
 
   body div {
     background-size: cover;
@@ -411,9 +379,9 @@ label {
     display: none;
   }
 
-  .header-container {
+  .container {
     width: 100%;
-    padding: 10px 0 5px 0;
+    padding: 0px;
 
   }
 
@@ -441,11 +409,6 @@ label {
     background-image: none;
   }
 
-  .banner-container {
-    width: 100%;
-    padding: 0;
-  }
-
   .banner-text {
     background-image: url(./images/body_bg.jpg);
     float: none;
@@ -470,8 +433,6 @@ label {
 
   .company-logo {
     padding-top: 10px;
-    width: 50%;
-    margin: 0 auto;
 
   }
 
@@ -487,12 +448,6 @@ label {
 
   .about-section {
     width: 100%;
-  }
-
-  .about-section-container {
-    width: 100%;
-    padding: 0;
-    ;
   }
 
   .section-heading-and-logo .heading {
@@ -527,11 +482,6 @@ label {
     float: none;
     width: 100%;
     padding: 20px 8% 20px 8%;
-  }
-
-  .clients-statement-container {
-    width: 100%;
-    padding: 0;
   }
 
   .company-logo-alt {
@@ -572,7 +522,7 @@ label {
 
   }
 
-  .footer-container {
+  .footer .container {
     width: 100%;
     text-align: center;
     padding: 20px 0px;
