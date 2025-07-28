@@ -342,11 +342,13 @@ label {
 }
 
 .download-guide-button-2-container {
-  padding: 60px ;
+  padding: 60px 125px 0px 125px;
+  box-sizing: border-box;
 }
 
 .download-guide-button-2-container img {
   float: right;
+  height: 62px;
 }
 
 .download-guide-button-2-text {
@@ -496,6 +498,11 @@ label {
   .pictures img {
     padding-right: 0;
     height: 65px;
+  }
+
+  .download-guide-button-2-container {
+    padding: 60px;
+    box-sizing: border-box;
   }
 
   .footer .container {
