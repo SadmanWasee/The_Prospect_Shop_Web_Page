@@ -47,12 +47,13 @@ a {
 .header-container {
   width: 1200px;
   margin: 0 auto;
-  padding-top: 10px;
+
 
 }
 
 .logo {
   float: left;
+  padding-top: 10px;
 }
 
 .brand-image {
@@ -61,7 +62,7 @@ a {
 
 .telno-and-navbar {
   float: right;
-  padding-bottom: 10px;
+  padding: 10px 0px;
 }
 
 .telno {
@@ -100,8 +101,8 @@ a {
 }
 
 .banner-container {
- width: 1200px;
- margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .banner-text {
@@ -142,31 +143,37 @@ a {
 
 .company-logo-white {
   float: right;
-  font-size: 38px;
+  font-size: 36px;
+}
+
+.company-logo-white span {
+  position: relative;
+  top: 6px;
 }
 
 .company-logo-white img {
-  height: 48px;
+  height: 52px;
   float: left;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
-.company-logo{
+
+.company-logo {
   padding-top: 10px;
   width: 90%;
   margin: 0 auto;
 }
 
-.company-logo p{
+.company-logo p {
   font-size: 22px;
   float: right;
 }
 
 .company-logo img {
-    float: left;
-    height: 48px;
-    padding-top: 5px;
-  }
+  float: left;
+  height: 48px;
+  padding-top: 5px;
+}
 
 .branding-statement {
   text-align: center;
@@ -227,7 +234,7 @@ label {
 .section-heading-and-logo .heading,
 .heading-2 {
   font-family: "Raleway", sans-serif;
-  font-size: 52px;
+  font-size: 56px;
   float: left;
   font-weight: 200;
 }
@@ -257,7 +264,6 @@ label {
 .email-leads {
   width: 33%;
   float: left;
-  vertical-align: top;
   box-sizing: border-box;
   height: 300px;
 }
@@ -295,12 +301,12 @@ label {
 }
 
 .section-heading-and-logo {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 50px 0;
 }
 
 .company-logo-alt {
   float: right;
+  height: 68px;
 }
 
 .company-logo-alt-mobile {
@@ -318,11 +324,11 @@ label {
 }
 
 .clients-statement-top div p {
-  height: 20dvh;
+  height: 150px;
 }
 
 .clients-statement-top {
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .clients-statement-top div h4 {
@@ -345,7 +351,8 @@ label {
 
 .download-guide-button-2 {
   float: right;
-  height: 100px;
+  height: 150px;
+  width: 40%;
   background-image: url(./images/container_bg_alt.png);
   background-size: 100% 100%;
   padding: 50px 0px 20px 0px;
@@ -353,8 +360,7 @@ label {
 }
 
 .download-guide-button-2-container {
-  width: 100%;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .download-guide-button-2-text {
@@ -378,14 +384,15 @@ label {
 }
 
 
-@media  screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   body {
     width: 1200px;
   }
+
   body div {
     background-size: cover;
   }
-  
+
 }
 
 
@@ -395,6 +402,7 @@ label {
   body {
     width: 576px;
   }
+
   body div {
     background-size: cover;
   }
@@ -405,7 +413,7 @@ label {
 
   .header-container {
     width: 100%;
-    padding : 10px 0 5px 0;
+    padding: 10px 0 5px 0;
 
   }
 
@@ -464,7 +472,7 @@ label {
     padding-top: 10px;
     width: 50%;
     margin: 0 auto;
-  
+
   }
 
   .company-logo img {
@@ -483,7 +491,8 @@ label {
 
   .about-section-container {
     width: 100%;
-    padding: 0;;
+    padding: 0;
+    ;
   }
 
   .section-heading-and-logo .heading {
@@ -566,7 +575,7 @@ label {
   .footer-container {
     width: 100%;
     text-align: center;
-    padding: 10px 0px;
+    padding: 20px 0px;
   }
 
   .center-image {
@@ -574,7 +583,7 @@ label {
   }
 
   .download-guide-button-2-container {
-    padding-top: 70px;
+    padding-top: 60px;
   }
 
 }
