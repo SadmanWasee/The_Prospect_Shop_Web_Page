@@ -223,8 +223,7 @@ label {
 }
 
 
-.section-heading-and-logo .heading,
-.heading-2 {
+.section-heading-and-logo .section-heading{
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   float: left;
@@ -343,13 +342,16 @@ label {
 }
 
 .download-guide-button-2-container {
-  padding-top: 60px;
+  padding: 60px ;
+}
+
+.download-guide-button-2-container img {
+  float: right;
 }
 
 .download-guide-button-2-text {
-  display: inline-block;
+  float: left;
   width: 40%;
-  padding-left: 100px;
 }
 
 .footer {
@@ -375,7 +377,6 @@ label {
   .container {
     width: 100%;
     padding: 0px;
-
   }
 
   .hamburger {
@@ -443,19 +444,12 @@ label {
     width: 100%;
   }
 
-  .section-heading-and-logo .heading {
-    width: 10%;
-    float: left;
-    padding-left: 20px;
-  }
-
-  .section-heading-and-logo .heading-2 {
-    width: 60%;
-  }
-
   .section-heading-and-logo {
-    width: 90%;
-    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .section-heading-and-logo .section-heading {
+    font-size: 42px;
   }
 
   .section-heading-and-logo .company-logo {
@@ -481,9 +475,7 @@ label {
     float: right;
   }
 
-  .carlon-leong,
-  .griffith-university,
-  .samsung-communications {
+  .clients-statement-description-box {
     float: none;
     width: 100%;
     padding: 20px 8% 20px 8%;
@@ -505,11 +497,6 @@ label {
     padding-right: 0;
   }
 
-  .download-guide-button-2-text {
-    padding-left: 25%;
-
-  }
-
   .footer .container {
     text-align: center;
     padding: 20px 0px;
@@ -519,8 +506,5 @@ label {
     max-width: 100%;
   }
 
-  .download-guide-button-2-container {
-    padding-top: 60px;
-  }
 
 }
