@@ -117,7 +117,7 @@ a {
   width: 30%;
   background-image: url(./images/container_bg_2.png);
   background-size: 100% 100%;
-  height: 680px;
+  height: 730px;
 }
 
 .download-form-segment img {
@@ -200,8 +200,8 @@ label {
 }
 
 .download-form form input {
-  font-size: 16px;
-  width: 100%;
+  font-size: 26px;
+  width: 98%;
 }
 
 .download-form-mobile {
@@ -428,7 +428,7 @@ label {
 
 
   .company-logo {
-    padding: 10px 10px;
+    padding: 10px 0;
     box-sizing: border-box; 
   }
 
