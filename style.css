@@ -101,10 +101,6 @@ a {
   background-size: 100% 100%;
 }
 
-.banner-mobile-view {
-  display: none;
-}
-
 .banner-text {
   width: 70%;
   float: left;
@@ -183,22 +179,15 @@ a {
   padding-bottom: 20px;
 }
 
-.download-form form input,
-label {
-  display: block;
-}
-
 .download-form form label {
+  display: block;
   padding-top: 10px;
 }
 
 .download-form form input {
+  display: block;
   font-size: 28px;
   width: 98%;
-}
-
-.download-form-mobile {
-  display: none;
 }
 
 .privacy-matters-statement {
@@ -213,12 +202,7 @@ label {
   background-color: #5fa32e;
 }
 
-.about-section-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.section-heading-and-logo .section-heading{
+.section-heading {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   float: left;
@@ -276,10 +260,6 @@ label {
 /*#endregion about-section*/
 
 /*#region clients-statement*/
-.clients-statement-container {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .section-heading-and-logo {
   padding: 50px 0;
@@ -360,9 +340,6 @@ label {
   background-size: 100% 100%;
 }
 
-.footer .container {
-  padding: 20px 0;
-}
 /*#endregion footer*/
 
 /*#region mobile view*/
