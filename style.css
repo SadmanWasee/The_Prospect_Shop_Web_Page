@@ -137,9 +137,7 @@ a {
 }
 
 .company-logo {
-  padding-top: 10px;
-  width: 90%;
-  margin: 0 auto;
+  padding: 10px 10px 0px 10px;
 }
 
 .company-logo p {
@@ -340,6 +338,10 @@ a {
   background-size: 100% 100%;
 }
 
+.footer .container {
+  padding: 20px 0;
+}
+
 /*#endregion footer*/
 
 /*#region mobile view*/
@@ -409,7 +411,7 @@ a {
   }
 
   .company-logo {
-    padding: 10px 0; 
+    padding: 10px 25px; 
   }
 
   .company-logo img {
